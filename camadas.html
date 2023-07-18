@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>CAMADAS</title> 
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+   
+  </head>
+  <body>
+
+    <input type="checkbox" id="check">
+
+    <!-- Área do cabeçalho início -->
+    <header>
+      <label for="check">
+         <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area">
+        <h3>Simulador <span> SPR </span></h3>
+      </div>
+      <div class="right_area">
+        <a href="#" class="logout_btn">Logout</a>
+      </div>
+    </header>
+    <!-- Área do cabelaho final--> 
+
+    <!-- área da Barra lateral inicio-->
+    <div class="sidebar">
+      <div class="profile_info">
+        <img src="Surface_Plasmon_Resonance_(SPR).jpg" class="profile_image" alt="">
+        <h4>Sensor SPR</h4>
+      </div>
+      <a href="index.html"><i class="fas fa-indent"></i>HOME</a>
+      <a href="#"><i class="fas fa-cogs"></i><span>Components</span></a>
+      <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+      <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+
+    </div>
+    <!-- área da Barra lateral final -->
+
+    <div class="content">
+      <img src="download.jpg" class="img_spr" alt="">
+      <div class="info_spr"> <!-- Texto sobre o simulador-->
+        <p align="justify">Vestibulum rutrum ullamcorper mattis. Etiam luctus non nunc at ultrices. Vivamus auctor augue tellus, non lobortis elit tristique nec. Sed vehicula finibus nulla, at consectetur purus iaculis nec. Phasellus maximus sapien sit amet vehicula imperdiet. Vestibulum laoreet nunc diam, vel feugiat velit aliquam sodales. Donec interdum sem ac magna blandit, ut pretium nunc congue. Vestibulum cursus mauris ut lectus gravida porta. Cras ut nulla sed eros lacinia egestas. Sed sed rhoncus metus. Sed justo metus, malesuada vel felis eget, volutpat sodales nisi. Phasellus porta sodales ante ac sagittis. Nullam eget pellentesque magna, mollis lobortis urna.</p>
+      </div>
+      
+    <div class="selecion">
+     <h4> Select the material for First layer</h4>
+    </div>
+    <!-- Primeira camada-->
+    <div class="select-box">
+        
+        <div class="option-container">
+        
+          <div class="option">
+          <input type="radio" class="radio" id="main" name="category"/>
+          <label for="main"> Simple inorganic materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="organic" name="category"/>
+          <label for="organic"> Organic Materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="glass" name="category"/>
+          <label for="glass">Glasses</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="other" name="category"/>
+          <label for="other"> Miscellaneous Materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="3D" name="category"/>
+          <label for="3D"> Selected data for 3D artists</label>
+          </div>
+        </div>
+
+        <div class="camadas">
+          First layer 
+        </div>
+    </div>
+
+    <!-- Segunda camada-->
+    <div class="selecion">
+     <h4> Select the material for second layer</h4>
+    </div>
+ 
+    <div class="select-box">
+        
+        <div class="option-container">
+        
+          <div class="option">
+          <input type="radio" class="radio" id="main" name="category"/>
+          <label for="main"> Simple inorganic materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="organic" name="category"/>
+          <label for="organic"> Organic Materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="glass" name="category"/>
+          <label for="glass">Glasses</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="other" name="category"/>
+          <label for="other"> Miscellaneous Materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="3D" name="category"/>
+          <label for="3D"> Selected data for 3D artists</label>
+          </div>
+        </div>
+
+        <div class="camadas">
+          Second layer 
+        </div>
+    </div>
+    
+    <!-- Terceira camada-->
+    <div class="selecion">
+     <h4> Select the material for third layer</h4>
+    </div>
+   
+    <div class="select-box">
+        
+        <div class="option-container">
+        
+          <div class="option">
+          <input type="radio" class="radio" id="main" name="category"/>
+          <label for="main"> Simple inorganic materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="organic" name="category"/>
+          <label for="organic"> Organic Materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="glass" name="category"/>
+          <label for="glass">Glasses</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="other" name="category"/>
+          <label for="other"> Miscellaneous Materials</label>
+          </div>
+          <div class="option">
+          <input type="radio" class="radio" id="3D" name="category"/>
+          <label for="3D"> Selected data for 3D artists</label>
+          </div>
+        </div>
+
+        <div class="camadas">
+          Third layer 
+        </div>
+    </div>
+
+    <!-- Botão de Seleção -->
+
+    <button class="botao">
+      Run
+      
+    </button>
+    <!-- ação do javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
